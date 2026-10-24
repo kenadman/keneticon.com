@@ -2,16 +2,23 @@ This repo is keneticon.com, the Kenetic Consulting website. It is not kcorriveau
 
 ## Rules
 
-- Purpose: advisory practice site. Audience is CEOs, boards, PE sponsors and holding companies. It sells four project offers: AI strategy and readiness; AI governance, security and risk; technology due diligence; board and executive advisory. Fractional and interim CIO roles are not sold here. Those go to Fortium Partners.
+- Purpose: advisory practice site. Audience is CEOs, boards, PE sponsors and holding companies. It sells five offers: AI strategy and readiness; AI governance, security and risk; technology due diligence; executive advisory and coaching; technology leadership mentoring. Fractional and interim CIO roles are not sold here. Those go to Fortium Partners.
 - Structure: all website files live in /docs, the GitHub Pages publishing folder. CLAUDE.md and README.md stay outside /docs.
 - Tech: plain HTML and CSS with minimal vanilla JavaScript. No framework, no build step, no npm. Keep an empty .nojekyll in /docs.
-- Links and asset paths must be relative, because the preview runs at https://kenadman.github.io/keneticon.com/ until the domain cutover.
+- Links and asset paths must be relative, because the preview runs at https://kenadman.github.io/keneticon.com/ until the domain cutover. Exceptions: the canonical link, JSON-LD, robots.txt and sitemap.xml use https://keneticon.com/, and the Open Graph and Twitter tags use absolute preview URLs until the cutover.
 - Do not create a CNAME file or set a custom domain. Ken will call the cutover.
 - The repo is public. Never commit drafts, notes, contact lists, credentials or anything private.
 - Content comes only from Ken. Never invent clients, testimonials, metrics, team members or credentials.
 - Contact: booking link https://app.reclaim.ai/m/kencorriveau/flexible-quick-meeting, email ken@keneticon.com, LinkedIn https://www.linkedin.com/in/kennethcorriveau/. No phone number and no contact form.
 - Fortium profile URL pending. Every Fortium link points to https://fortiumpartners.com and carries data-placeholder="fortium-profile".
 - Writing rules: no em dashes, no en dashes, no exclamation points, no emoji, never the word "excited". No HTML comments.
+
+## GEO
+
+- Section headings are natural-language questions with a 2 to 4 sentence answer-first summary beneath them. The old short heading stays as a small eyebrow label above the question.
+- Keep the FAQPage JSON-LD in sync with the visible FAQ, word for word.
+- On every content change, update the footer "Last updated" month, dateModified in the JSON-LD and the sitemap lastmod.
+- External statistics must link to their source.
 
 ## Design tokens
 

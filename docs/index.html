@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Kenetic Consulting | Technology and AI Advisory for CEOs, Boards and PE Sponsors</title>
   <meta name="description" content="Kenetic Consulting helps CEOs, boards and PE sponsors decide where AI and technology will actually move the business, then builds the plan, the guardrails and the team to get there.">
+  <meta name="author" content="Kenneth Corriveau">
   <meta name="theme-color" content="#162842">
+  <link rel="canonical" href="https://keneticon.com/">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Kenetic Consulting">
@@ -31,18 +33,164 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Kenetic Consulting",
-    "description": "Technology and AI advisory for CEOs, boards and PE sponsors.",
-    "url": "https://kenadman.github.io/keneticon.com/",
-    "image": "https://kenadman.github.io/keneticon.com/images/ken-corriveau.jpg",
-    "email": "mailto:ken@keneticon.com",
-    "founder": {
-      "@type": "Person",
-      "name": "Kenneth Corriveau",
-      "url": "https://kcorriveau.com"
-    },
-    "sameAs": ["https://www.linkedin.com/in/kennethcorriveau/"]
+    "@graph": [
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://keneticon.com/#organization",
+        "name": "Kenetic Consulting",
+        "url": "https://keneticon.com/",
+        "email": "ken@keneticon.com",
+        "founder": {
+          "@id": "https://keneticon.com/#ken"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "United States"
+        },
+        "knowsAbout": [
+          "AI strategy",
+          "AI readiness",
+          "AI governance",
+          "cybersecurity risk",
+          "technology due diligence",
+          "executive coaching",
+          "technology leadership"
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Kenetic Consulting services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "AI Strategy and Readiness"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "AI Governance, Security and Risk"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Technology Due Diligence"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Executive Advisory and Coaching"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Technology Leadership Mentoring"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://keneticon.com/#ken",
+        "name": "Kenneth Corriveau",
+        "sameAs": [
+          "https://www.linkedin.com/in/kennethcorriveau/",
+          "https://kcorriveau.com/"
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://keneticon.com/#webpage",
+        "url": "https://keneticon.com/",
+        "name": "Kenetic Consulting | Technology and AI Advisory for CEOs, Boards and PE Sponsors",
+        "author": {
+          "@id": "https://keneticon.com/#ken"
+        },
+        "about": {
+          "@id": "https://keneticon.com/#organization"
+        },
+        "dateModified": "2026-10-24"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://keneticon.com/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How is Kenetic Consulting different from hiring a fractional CIO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kenetic takes on defined advisory work: an AI strategy, a governance framework, a diligence report, coaching for an executive. A fractional or interim CIO runs your technology function over time, and Ken takes those roles through Fortium Partners. If you are not sure which you need, start with a conversation and we will point you to the right one."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is an AI readiness assessment?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It measures how ready your company is to get value from AI, using evidence from both leadership and the workforce. Kenetic uses Evolvium’s Vista platform to produce a Transformation Potential Score (TPS) across nine weighted dimensions, then turns the gaps into prioritized opportunities and a sequenced roadmap."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does technology due diligence cover?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Before close, we assess the target’s technology, security posture, data and team, and write the findings for the deal team in plain language. After close, we turn those findings into an integration roadmap. Ken has led numerous post-merger integrations, consolidating 100+ platforms."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How quickly will we see results?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The first output lands in about two weeks: a clear read on where you stand and what matters first. Longer work follows a sequenced roadmap of immediate, midterm and long-term moves."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who does Kenetic work with?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CEOs, boards, PE sponsors and holding companies, from startups to enterprise organizations. We can assess one company or compare readiness across a whole PE portfolio."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you offer executive coaching and mentoring?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Ken coaches and advises C-suite leaders on technology and AI decisions, and mentors up-and-coming technology practitioners to be leaders of tomorrow. He started his own career as a junior network manager with one direct report."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should we hire a Chief AI Officer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "IBM’s Institute for Business Value reports that 26% of organizations now have a Chief AI Officer, and that those organizations report about 10% higher ROI from AI. Our read is that the gain comes from having one accountable owner for AI. For most mid-market companies, that owner should be an upgraded CIO rather than a new seat in the C-suite."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do we get started?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Book a conversation on Ken’s calendar or email ken@keneticon.com. The first conversation is about what you are weighing and whether Kenetic is the right fit."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>
@@ -65,6 +213,7 @@
           <li><a href="#approach">Approach</a></li>
           <li><a href="#evolvium">Evolvium</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#faq">FAQ</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -86,16 +235,19 @@
         </div>
         <ul class="proof-strip" aria-label="Highlights">
           <li>30 years of technology leadership</li>
-          <li>$110M global technology budget led</li>
-          <li>25+ M&amp;A integrations</li>
-          <li>First AI governance groups at Tinuiti and Broughton Partners</li>
+          <li>Over $100 million global technology budget</li>
+          <li>Multiple M&amp;A integrations</li>
+          <li>From startups to enterprise organizations</li>
         </ul>
       </div>
     </section>
 
     <section class="section section-soft" id="challenges" aria-labelledby="challenges-title">
       <div class="wrap">
-        <h2 id="challenges-title">Where Companies Get Stuck</h2>
+        <p class="eyebrow">Where Companies Get Stuck</p>
+        <h2 id="challenges-title">Why do AI and technology initiatives stall?</h2>
+        <p class="summary">Most stall on clarity, not technology. MIT&rsquo;s NANDA initiative found that <a href="https://finance.yahoo.com/news/mit-report-95-generative-ai-105412686.html" target="_blank" rel="noopener">about 95% of enterprise generative AI pilots</a> delivered little or no measurable P&amp;L impact, and it pointed to integration and learning gaps rather than model quality. The fix starts with a clear read on where you stand and what matters first.</p>
+        <p class="source-note">Source: MIT NANDA, State of AI in Business 2025, as reported by Fortune.</p>
         <ul class="questions">
           <li>Eleven AI pilots and no movement in the P&amp;L?</li>
           <li>A board asking for the AI plan you do not have yet?</li>
@@ -108,8 +260,10 @@
 
     <section class="section" id="services" aria-labelledby="services-title">
       <div class="wrap">
-        <h2 id="services-title">What We Do</h2>
-        <ul class="card-grid card-grid-2">
+        <p class="eyebrow">What We Do</p>
+        <h2 id="services-title">What does Kenetic Consulting do?</h2>
+        <p class="summary">Kenetic Consulting is the technology and AI advisory practice of Kenneth Corriveau. We help CEOs, boards and PE sponsors with AI strategy and readiness, AI governance, security and risk, technology due diligence, and executive advisory and coaching, and we mentor rising technology leaders.</p>
+        <ul class="card-grid service-grid">
           <li class="card service">
             <h3>AI Strategy and Readiness</h3>
             <p class="promise">Where AI will create value in your business, and in what order.</p>
@@ -128,7 +282,7 @@
               <li>A cybersecurity and risk review</li>
               <li>A staff AI-literacy program</li>
             </ul>
-            <p class="proof">Ken started the first AI governance groups at Tinuiti and Broughton Partners, and hired Omnicom Media Group&rsquo;s first CISO.</p>
+            <p class="proof">Ken started the first AI governance groups and staff AI-literacy programs at multiple organizations, and hired Omnicom Media Group&rsquo;s first CISO.</p>
           </li>
           <li class="card service">
             <h3>Technology Due Diligence</h3>
@@ -138,29 +292,79 @@
               <li>A findings report written for the deal team</li>
               <li>A post-close integration roadmap</li>
             </ul>
-            <p class="proof">25+ post-merger integrations, consolidating 100+ platforms.</p>
+            <p class="proof">Numerous post-merger integrations, consolidating 100+ platforms.</p>
           </li>
           <li class="card service">
-            <h3>Board and Executive Advisory</h3>
-            <p class="promise">A seasoned technology voice for the CEO and the board.</p>
+            <h3>Executive Advisory and Coaching</h3>
+            <p class="promise">A seasoned technology voice for the CEO, the C-suite and the board.</p>
             <ul class="deliverables" aria-label="Deliverables">
-              <li>Standing advisory sessions</li>
+              <li>C-suite coaching and advising on technology and AI</li>
               <li>Board-ready technology and AI briefings</li>
               <li>Decision support on major technology investments</li>
             </ul>
             <p class="proof">Board seats at LiveRetail, Docurated and CipherTechs.</p>
           </li>
+          <li class="card service">
+            <h3>Technology Leadership Mentoring</h3>
+            <p class="promise">Developing the technology leaders of tomorrow.</p>
+            <ul class="deliverables" aria-label="Deliverables">
+              <li>One-on-one mentoring for up-and-coming technology practitioners</li>
+              <li>A development plan built around their next role</li>
+              <li>A sounding board for real decisions as they come up</li>
+            </ul>
+            <p class="proof">Ken started his career at DDB as a junior network manager with one direct report.</p>
+          </li>
         </ul>
+
+        <div class="fit">
+          <h3 id="fit-title">Which offer fits your situation?</h3>
+          <table class="fit-table" aria-labelledby="fit-title">
+            <thead>
+              <tr>
+                <th scope="col">Your situation</th>
+                <th scope="col">Where to start</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Lots of AI activity, no clear plan</td>
+                <td>AI Strategy and Readiness</td>
+              </tr>
+              <tr>
+                <td>People using AI tools without guardrails</td>
+                <td>AI Governance, Security and Risk</td>
+              </tr>
+              <tr>
+                <td>A deal in motion</td>
+                <td>Technology Due Diligence</td>
+              </tr>
+              <tr>
+                <td>A CEO or board facing a major technology call</td>
+                <td>Executive Advisory and Coaching</td>
+              </tr>
+              <tr>
+                <td>A rising technology leader ready for the next step</td>
+                <td>Technology Leadership Mentoring</td>
+              </tr>
+              <tr>
+                <td>You need someone to run technology day to day</td>
+                <td>A fractional or interim CIO through <a href="https://fortiumpartners.com" data-placeholder="fortium-profile">Fortium Partners</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </section>
 
     <section class="section section-soft" id="approach" aria-labelledby="approach-title">
       <div class="wrap">
-        <h2 id="approach-title">How We Work</h2>
+        <p class="eyebrow">How We Work</p>
+        <h2 id="approach-title">How does a Kenetic engagement work?</h2>
+        <p class="summary">We listen at two levels, leadership and the people doing the work, then deliver a first output in about two weeks. From there we build a sequenced roadmap of immediate, midterm and long-term moves, each with an owner, and stay close while your team builds it.</p>
         <ol class="steps">
           <li>
             <h3>Listen at both levels.</h3>
-            <p>We align what leadership believes with what is actually happening at the desk.</p>
+            <p>We align what leadership believes with what is actually happening down in the trenches.</p>
           </li>
           <li>
             <h3>First output in about two weeks.</h3>
@@ -173,15 +377,16 @@
         </ol>
         <ul class="principles">
           <li><strong>We are the architect, not the contractor.</strong> We design the plan and stay close while your team builds it.</li>
-          <li><strong>People over machine.</strong> The smart plan moves people toward the work a machine cannot do, not out the door.</li>
+          <li><strong>People over machine.</strong> The smart plan moves people toward the work technology cannot do, not out the door.</li>
         </ul>
       </div>
     </section>
 
     <section class="section band" id="evolvium" aria-labelledby="evolvium-title">
       <div class="wrap">
-        <h2 id="evolvium-title">Measured, Not Guessed</h2>
-        <p class="section-lede">Our AI work is backed by Evolvium&rsquo;s Vista platform, which Ken co-founded. It turns leadership and workforce evidence into a Transformation Potential Score (TPS) and a Transformation Blueprint, so recommendations rest on evidence from both the <span class="nowrap">C-suite</span> and the floor.</p>
+        <p class="eyebrow">Measured, Not Guessed</p>
+        <h2 id="evolvium-title">How does Kenetic measure AI readiness?</h2>
+        <p class="summary">With Evolvium&rsquo;s Vista platform, which Ken co-founded with <a href="https://transformationchief.com/" target="_blank" rel="noopener">Max Cheprasov</a>. Vista turns leadership and workforce evidence into a Transformation Potential Score (TPS) and a Transformation Blueprint, so recommendations rest on evidence from both the <span class="nowrap">C-suite</span> and the floor.</p>
         <a class="text-link arrow-link" href="https://evolvium.ai">Explore Evolvium AI</a>
       </div>
     </section>
@@ -192,18 +397,62 @@
           <img src="images/ken-corriveau.jpg" width="800" height="960" alt="Kenneth Corriveau" loading="lazy">
         </div>
         <div class="about-copy">
-          <h2 id="about-title">Led by Kenneth Corriveau</h2>
-          <p>Ken spent 28 years at Omnicom, finishing as EVP and Chief Information Officer, Worldwide for Omnicom Media Group, where he ran a $110M global technology budget, hired the first CISO and started the development team that became Annalect. Since then he has served as interim CIO at Tinuiti and Broughton Partners, where he started the first AI governance groups, and he co-founded Evolvium AI. He serves on the board of LiveRetail and previously served on the boards of Docurated and CipherTechs.</p>
+          <p class="eyebrow">Led by Kenneth Corriveau</p>
+          <h2 id="about-title">Who leads Kenetic Consulting?</h2>
+          <p class="summary">Kenetic Consulting is led by Kenneth Corriveau, former EVP and Chief Information Officer, Worldwide for Omnicom Media Group, with 30 years of technology leadership across advertising, media and adtech.</p>
+          <p>Ken spent 28 years at Omnicom, finishing as EVP and Chief Information Officer, Worldwide for Omnicom Media Group, where he ran a global technology budget of more than $100 million, hired the first CISO and started the development team that became Annalect. Since then he has served as interim CIO at Tinuiti and Broughton Partners, started the first AI governance groups and staff AI-literacy programs at multiple organizations, and co-founded Evolvium AI with Max Cheprasov. He serves on the board of LiveRetail and previously served on the boards of Docurated and CipherTechs.</p>
           <p><a class="text-link arrow-link" href="https://kcorriveau.com">Full profile at kcorriveau.com</a></p>
           <p class="note">Looking for a fractional or interim CIO? Ken takes those roles as a PartnerCIO with <a href="https://fortiumpartners.com" data-placeholder="fortium-profile">Fortium Partners</a>.</p>
         </div>
       </div>
     </section>
 
-    <section class="section section-soft" id="contact" aria-labelledby="contact-title">
+    <section class="section section-soft" id="faq" aria-labelledby="faq-title">
+      <div class="wrap">
+        <p class="eyebrow">FAQ</p>
+        <h2 id="faq-title">Questions Clients Ask</h2>
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3>How is Kenetic Consulting different from hiring a fractional CIO?</h3>
+            <p>Kenetic takes on defined advisory work: an AI strategy, a governance framework, a diligence report, coaching for an executive. A fractional or interim CIO runs your technology function over time, and Ken takes those roles through <a href="https://fortiumpartners.com" data-placeholder="fortium-profile">Fortium Partners</a>. If you are not sure which you need, start with a conversation and we will point you to the right one.</p>
+          </div>
+          <div class="faq-item">
+            <h3>What is an AI readiness assessment?</h3>
+            <p>It measures how ready your company is to get value from AI, using evidence from both leadership and the workforce. Kenetic uses Evolvium&rsquo;s Vista platform to produce a Transformation Potential Score (TPS) across nine weighted dimensions, then turns the gaps into prioritized opportunities and a sequenced roadmap.</p>
+          </div>
+          <div class="faq-item">
+            <h3>What does technology due diligence cover?</h3>
+            <p>Before close, we assess the target&rsquo;s technology, security posture, data and team, and write the findings for the deal team in plain language. After close, we turn those findings into an integration roadmap. Ken has led numerous post-merger integrations, consolidating 100+ platforms.</p>
+          </div>
+          <div class="faq-item">
+            <h3>How quickly will we see results?</h3>
+            <p>The first output lands in about two weeks: a clear read on where you stand and what matters first. Longer work follows a sequenced roadmap of immediate, midterm and long-term moves.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Who does Kenetic work with?</h3>
+            <p>CEOs, boards, PE sponsors and holding companies, from startups to enterprise organizations. We can assess one company or compare readiness across a whole PE portfolio.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Do you offer executive coaching and mentoring?</h3>
+            <p>Yes. Ken coaches and advises C-suite leaders on technology and AI decisions, and mentors up-and-coming technology practitioners to be leaders of tomorrow. He started his own career as a junior network manager with one direct report.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Should we hire a Chief AI Officer?</h3>
+            <p><a href="https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/chief-ai-officer" target="_blank" rel="noopener">IBM&rsquo;s Institute for Business Value</a> reports that 26% of organizations now have a Chief AI Officer, and that those organizations report about 10% higher ROI from AI. Our read is that the gain comes from having one accountable owner for AI. For most mid-market companies, that owner should be an upgraded CIO rather than a new seat in the C-suite.</p>
+          </div>
+          <div class="faq-item">
+            <h3>How do we get started?</h3>
+            <p>Book a conversation on <a href="https://app.reclaim.ai/m/kencorriveau/flexible-quick-meeting">Ken&rsquo;s calendar</a> or email <a href="mailto:ken@keneticon.com">ken@keneticon.com</a>. The first conversation is about what you are weighing and whether Kenetic is the right fit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-title">
       <div class="wrap contact">
-        <h2 id="contact-title">Start a Conversation</h2>
-        <p class="section-lede">Tell us what you are weighing. We will tell you plainly whether we can help.</p>
+        <p class="eyebrow">Start a Conversation</p>
+        <h2 id="contact-title">How do you start working with Kenetic Consulting?</h2>
+        <p class="summary">Book a conversation on <a href="https://app.reclaim.ai/m/kencorriveau/flexible-quick-meeting">Ken&rsquo;s calendar</a> or email <a href="mailto:ken@keneticon.com">ken@keneticon.com</a>. Tell us what you are weighing, and we will tell you plainly whether we can help. Looking for a fractional or interim CIO instead? Ken takes those roles through <a href="https://fortiumpartners.com" data-placeholder="fortium-profile">Fortium Partners</a>.</p>
         <div class="actions">
           <a class="btn btn-primary" href="https://app.reclaim.ai/m/kencorriveau/flexible-quick-meeting">Book a conversation</a>
         </div>
@@ -227,6 +476,7 @@
     <div class="wrap">
       <p><a href="https://kcorriveau.com">Kenneth Corriveau</a> <span aria-hidden="true">&middot;</span> Kenetic Consulting <span aria-hidden="true">&middot;</span> <a href="https://evolvium.ai">Evolvium AI</a></p>
       <p>&copy; 2026 Kenetic Consulting</p>
+      <p class="updated">Written by Kenneth Corriveau. Last updated <time datetime="2026-10-24">October 2026</time>.</p>
     </div>
   </footer>
 </body>

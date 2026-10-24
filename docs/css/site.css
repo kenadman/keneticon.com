@@ -342,12 +342,23 @@ ol {
   max-width: 40em;
 }
 
+.summary {
+  font-size: 1.125rem;
+  max-width: 44em;
+  margin-bottom: 2rem;
+}
+
+.source-note {
+  margin: -1.25rem 0 2rem;
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
 .questions {
   list-style: none;
   display: grid;
   gap: 4px;
   max-width: 44rem;
-  margin-top: 8px;
 }
 
 .questions li {
@@ -428,6 +439,54 @@ ol {
   color: var(--muted);
 }
 
+.fit {
+  margin-top: 56px;
+}
+
+.fit-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.fit-table th,
+.fit-table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.fit-table th {
+  background: var(--soft);
+  font-family: var(--font-head);
+  font-weight: 600;
+  font-size: 0.8125rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--navy);
+}
+
+.fit-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.fit-table td + td {
+  font-weight: 700;
+  color: var(--navy);
+  border-left: 1px solid var(--border);
+}
+
+.fit-table th + th {
+  border-left: 1px solid var(--border);
+}
+
 .steps {
   list-style: none;
   counter-reset: step;
@@ -489,6 +548,28 @@ ol {
   margin-bottom: 4px;
 }
 
+.faq-list {
+  display: grid;
+  gap: 16px;
+}
+
+.faq-item {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 22px;
+}
+
+.faq-item h3 {
+  font-size: 1.125rem;
+  line-height: 1.35;
+  margin-bottom: 0.5em;
+}
+
+.faq-item p {
+  margin: 0;
+}
+
 .band {
   background: var(--navy);
   color: var(--on-navy);
@@ -496,6 +577,14 @@ ol {
 
 .band h2 {
   color: #FFFFFF;
+}
+
+.band .eyebrow {
+  color: var(--orange);
+}
+
+.band .summary {
+  margin-bottom: 1.5rem;
 }
 
 .band a {
@@ -573,6 +662,11 @@ ol {
   margin: 0 0 4px;
 }
 
+.site-footer .updated {
+  margin-top: 12px;
+  font-size: 0.875rem;
+}
+
 .site-footer a {
   color: var(--orange);
   white-space: nowrap;
@@ -620,6 +714,23 @@ ol {
   .principles {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .service-grid > :last-child {
+    grid-column: 1 / -1;
+  }
+
+  .fit-table {
+    font-size: 1rem;
+  }
+
+  .fit-table th,
+  .fit-table td {
+    padding: 14px 20px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -631,8 +742,12 @@ ol {
     padding: 88px 0 72px;
   }
 
-  .card-grid-2 {
+  .faq-list {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .faq-item {
+    padding: 26px;
   }
 
   .steps {
@@ -684,6 +799,18 @@ ol {
 
   .proof-strip {
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  .service-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .service-grid > * {
+    grid-column: span 2;
+  }
+
+  .service-grid > :nth-child(n+4) {
+    grid-column: span 3;
   }
 
   .about-grid {
