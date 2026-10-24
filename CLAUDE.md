@@ -5,8 +5,8 @@ This repo is keneticon.com, the Kenetic Consulting website. It is not kcorriveau
 - Purpose: advisory practice site. Audience is CEOs, boards, PE sponsors and holding companies. It sells five offers: AI strategy and readiness; AI governance, security and risk; technology due diligence; executive advisory and coaching; technology leadership mentoring. Fractional and interim CIO roles are not sold here. Those go to Fortium Partners.
 - Structure: all website files live in /docs, the GitHub Pages publishing folder. CLAUDE.md and README.md stay outside /docs.
 - Tech: plain HTML and CSS with minimal vanilla JavaScript. No framework, no build step, no npm. Keep an empty .nojekyll in /docs.
-- Links and asset paths must be relative, because the preview runs at https://kenadman.github.io/keneticon.com/ until the domain cutover. Exceptions: the canonical link, JSON-LD, robots.txt and sitemap.xml use https://keneticon.com/, and the Open Graph and Twitter tags use absolute preview URLs until the cutover.
-- Do not create a CNAME file or set a custom domain. Ken will call the cutover.
+- Links and asset paths must be relative. Exceptions: the canonical link, JSON-LD, Open Graph and Twitter tags, robots.txt and sitemap.xml use absolute https://keneticon.com/ URLs.
+- The custom domain is keneticon.com. /docs/CNAME must contain exactly keneticon.com. Never delete or change it. Keep all paths relative.
 - The repo is public. Never commit drafts, notes, contact lists, credentials or anything private.
 - Content comes only from Ken. Never invent clients, testimonials, metrics, team members or credentials.
 - Contact: booking link https://app.reclaim.ai/m/kencorriveau/flexible-quick-meeting, email ken@keneticon.com, LinkedIn https://www.linkedin.com/in/kennethcorriveau/. No phone number and no contact form.
