@@ -439,6 +439,35 @@ ol {
   color: var(--muted);
 }
 
+.testimonial {
+  margin: 20px 0 0;
+  padding: 16px 18px;
+  background: var(--soft);
+  border-radius: 10px;
+}
+
+.testimonial blockquote {
+  margin: 0 0 10px;
+}
+
+.testimonial blockquote p {
+  margin: 0;
+  font-size: 0.9375rem;
+  font-style: italic;
+  line-height: 1.55;
+  color: var(--ink);
+}
+
+.testimonial figcaption {
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+.testimonial figcaption a {
+  font-weight: 700;
+}
+
 .fit {
   margin-top: 56px;
 }

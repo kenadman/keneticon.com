@@ -11,6 +11,7 @@ This repo is keneticon.com, the Kenetic Consulting website. It is not kcorriveau
 - Content comes only from Ken. Never invent clients, testimonials, metrics, team members or credentials.
 - Contact: booking link https://app.reclaim.ai/m/kencorriveau/flexible-quick-meeting, email ken@keneticon.com, LinkedIn https://www.linkedin.com/in/kennethcorriveau/. No phone number and no contact form.
 - Fortium profile URL pending. Every Fortium link points to https://fortiumpartners.com and carries data-placeholder="fortium-profile".
+- Testimonials are verbatim LinkedIn recommendations, attributed by name, title and relationship, and linked to the author's LinkedIn profile. Never edit their wording.
 - Writing rules: no em dashes, no en dashes, no exclamation points, no emoji, never the word "excited". No HTML comments.
 
 ## GEO
